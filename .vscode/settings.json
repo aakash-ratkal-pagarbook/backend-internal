@@ -1,0 +1,40 @@
+{
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "eslint.validate": [
+    "javascript"
+  ],
+  "eslint.alwaysShowStatus": true,
+  "eslint.run": "onSave",
+  "eslint.format.enable": true,
+  "editor.tabSize": 2,
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "cucumberautocomplete.steps": [
+    "./test/integration/**/*.js",
+    "./test/integration/*.js"
+  ],
+  "jestrunner.runOptions": [
+    "--coverage=false",
+    "--silent"
+  ],
+  "cucumber-quick": {
+    "tool": "cucumberjs",
+    "script": "npx cucumber-js ./test/integration --require ./test/integration"
+  },
+  "files.insertFinalNewline": true,
+  "javascript.preferences.importModuleSpecifier": "relative"
+}
