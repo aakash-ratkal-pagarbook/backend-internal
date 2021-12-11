@@ -1,5 +1,5 @@
 {
-  "name": "@aakashratkal/backend-internal",
+  "name": "@aakash-ratkal-pagarbook/backend-internal",
   "version": "1.0.0",
   "description": "Test package for dev purpose only",
   "license": "MIT",
@@ -46,5 +46,17 @@
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": "eslint --cache --fix"
   },
-  "main": "dist/index.js"
+  "main": "dist/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aakash-ratkal-pagarbook/backend-internal.git"
+  },
+  "author": "aakash ratkal",
+  "bugs": {
+    "url": "https://github.com/aakash-ratkal-pagarbook/backend-internal/issues"
+  },
+  "homepage": "https://github.com/aakash-ratkal-pagarbook/backend-internal#readme"
 }
